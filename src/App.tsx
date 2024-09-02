@@ -16,13 +16,11 @@ function App() {
     if (appStore.locale) {
       const processTranslationTokens = async () => {
         const tokens = loadLocaleData(appStore.locale);
-        console.log('tokens', tokens);
         setTranslationTokens(tokens);
       };
 
       processTranslationTokens();
     } else {
-      console.log('setting locale:', navigator.language);
       dispatch(setLocale(navigator.language));
     }
   }, [appStore.locale, dispatch]);
