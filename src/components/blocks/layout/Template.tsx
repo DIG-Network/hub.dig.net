@@ -1,7 +1,6 @@
-import { ErrorBoundary } from '@/pages';
-import { LeftNav } from './LeftNav';
 import { Outlet } from 'react-router-dom';
-import { AppNavigationBar } from '@/components';
+import { ErrorBoundary } from '@/pages';
+import { AppNavigationBar, LeftNav } from '@/components';
 
 const headerPx = 64;
 

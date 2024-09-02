@@ -39,7 +39,7 @@ class ErrorBoundary extends React.Component {
           </Modal.Header>
           <Modal.Body>
             <p className="sentence-case text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              <FormattedMessage id="please-reload-or-restart-the-application" />.
+              <FormattedMessage id="please-reload-the-page" />.
             </p>
           </Modal.Body>
         </Modal>

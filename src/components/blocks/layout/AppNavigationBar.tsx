@@ -1,11 +1,5 @@
-import { Navbar } from '@/components';
-
 const AppNavigationBar: React.FC = () => {
-  return (
-    <Navbar fluid rounded>
-      todo: app navbar here
-    </Navbar>
-  );
+  return <div className="bg-purple-600 text-gray-100 h-full">todo: dighub navbar</div>;
 };
 
 export { AppNavigationBar };

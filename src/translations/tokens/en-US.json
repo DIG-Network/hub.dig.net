@@ -1,3 +1,5 @@
 {
-  "hello-world": "hello world"
+  "hello-world": "hello world",
+  "application-error": "application error",
+  "please-reload-the-page": "please reload the page"
 }

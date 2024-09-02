@@ -17,4 +17,3 @@ export * from './Select';
 export * from './Badge';
 export * from './Popover';
 export * from './Table';
-export * from './Navbar';
