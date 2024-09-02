@@ -1,0 +1,16 @@
+import { createSlice } from '@reduxjs/toolkit';
+import initialState from './app.initialstate';
+
+export const appSlice = createSlice({
+  name: 'app',
+  initialState,
+  reducers: {
+    setLocale: (state, { payload }: { payload: string }) => {
+      state.locale = payload;
+    },
+  },
+});
+
+export const { setLocale } = appSlice.actions;
+
+export default appSlice.reducer;

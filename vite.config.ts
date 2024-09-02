@@ -4,15 +4,14 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './', 
+  base: './',
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src/renderer'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
-    // Specify the directory to output the build files
-    outDir: path.resolve(__dirname, 'build/renderer'),
+    outDir: path.resolve(__dirname, 'build'),
   },
 });
