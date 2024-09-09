@@ -61,11 +61,11 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: dighub-ui-web-build
-          path: dighub-ui-web-build
+          path: build
 
       - name: Get Filenames
         run: |
-          WEB_BUILD=$(find ${{ github.workspace }}/build -type d -name 'dighub-ui-web-build')
+          WEB_BUILD=$(find ${{ github.workspace }}/ -type d -name 'build')
           echo "WEB_BUILD=$WEB_BUILD" >> $GITHUB_ENV
 
       - name: Release in Private Repo
