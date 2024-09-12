@@ -6,11 +6,20 @@ import '@/App.css';
 import { setLocale } from '@/store/slices/app';
 import { IndeterminateProgressOverlay } from '@/components';
 import { AppRouter } from '@/routes';
+import { useThemeMode } from 'flowbite-react';
 
 function App() {
   const dispatch = useDispatch();
   const appStore = useSelector((state: any) => state.app);
   const [translationTokens, setTranslationTokens] = useState<object>();
+
+  const { setMode: setFlowBiteThemeMode, mode: flowbiteThemeMode } = useThemeMode();
+
+  useEffect(() => {
+    if (flowbiteThemeMode !== 'light') {
+      setFlowBiteThemeMode('light');
+    }
+  }, [flowbiteThemeMode, setFlowBiteThemeMode]);
 
   useEffect(() => {
     if (appStore.locale) {

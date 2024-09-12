@@ -1,5 +1,5 @@
 const AppNavigationBar: React.FC = () => {
-  return <div className="bg-purple-600 text-gray-100 h-full">todo: dighub navbar</div>;
+  return <div className="bg-white h-full shadow-sm">todo: dighub navbar</div>;
 };
 
 export { AppNavigationBar };

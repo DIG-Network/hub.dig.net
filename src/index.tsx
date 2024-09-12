@@ -9,8 +9,6 @@ import { persistor, store } from '@/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root') || document.createElement('div'));
 
-localStorage.theme = 'light';
-
 root.render(
   <React.StrictMode>
     <Provider store={store}>

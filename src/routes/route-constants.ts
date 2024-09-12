@@ -1,3 +1,6 @@
 export const ROUTES = {
-  HELLO_WORLD: '/hello-world',
+  DASHBOARD: '/dashboard',
+  DEPLOYMENTS: '/deployments',
+  ACCOUNT: '/account',
+  STORAGE: '/storage',
 };

@@ -1,2 +1,2 @@
-export * from './HelloWorld';
-export * from './ErrorBoundary';
+export * from './authenticated';
+export * from './unauthenticated';

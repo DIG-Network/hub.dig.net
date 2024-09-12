@@ -1,5 +1,9 @@
 {
-  "hello-world": "hello world",
   "application-error": "application error",
-  "please-reload-the-page": "please reload the page"
+  "please-reload-the-page": "please reload the page",
+  "menu": "menu",
+  "dashboard": "dashboard",
+  "deployments": "deployments",
+  "account": "account",
+  "storage": "storage"
 }
