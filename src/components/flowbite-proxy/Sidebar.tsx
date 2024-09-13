@@ -62,7 +62,7 @@ const sidebarTheme = {
       noIcon: 'font-bold',
     },
     content: {
-      base: 'flex-1 whitespace-nowrap px-3',
+      base: 'flex-1 whitespace-nowrap px-3 cursor-default',
     },
     icon: {
       base: 'h-6 w-6 flex-shrink-0 transition duration-75 text-gray-400 group-hover:text-white',

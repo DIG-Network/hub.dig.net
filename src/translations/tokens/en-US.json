@@ -5,5 +5,8 @@
   "dashboard": "dashboard",
   "deployments": "deployments",
   "account": "account",
-  "storage": "storage"
+  "storage": "storage",
+  "upload": "upload",
+  "recent": "recent",
+  "deployment-interactions": "deployment interactions"
 }
