@@ -8,5 +8,7 @@
   "storage": "storage",
   "upload": "upload",
   "recent": "recent",
-  "deployment-interactions": "deployment interactions"
+  "deployment-interactions": "deployment interactions",
+  "my-deployments": "my deployments",
+  "see-all": "see all"
 }
